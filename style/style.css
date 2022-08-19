@@ -1,24 +1,37 @@
+/*001*/
 body {
     margin: 0; 
-    padding:0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
 
+/*010*/
 .navigation__bar {
-    width: 100%; 
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     background-color: rgb(173, 209, 242);
     height: 80px;
 }
 
+.logo {
+    padding: 1%;
+    margin: 1%;
+    font-weight: 500;
+}
+
+/*012*/
 .navigation__bar ul li {
     display: inline-block;
     position: relative;
-    width: 50px;
-    padding: 1%; 
-    margin: 1%;
+    width: 60px;
+    padding: 5px;
+    margin-right: 20px;
 }
 
+/*013*/
 .navigation__bar ul li a {
     display: block;
     text-decoration: none;
@@ -27,10 +40,12 @@ body {
     color: white;
 }
 
+/*023*/
 .navigation__bar ul li a:hover {
     text-decoration: underline;
 }
 
+/*013*/
 .navigation__bar ul li ul {
     display: none;
     position: absolute;
@@ -41,26 +56,32 @@ body {
     border-radius: 0 0 10px 10px;
 }
 
+/*023*/
 .navigation__bar ul li:hover ul {
     display: block;
 }
 
+/*014*/
 .navigation__bar ul li ul a {
     width: 100px;
 }
 
+/*024*/
 .navigation__bar ul li ul a:hover {
     background: rgb(249, 206, 183);
 }
 
+/*010*/
 .header {
     display: flex;
 }
 
+/*001*/
 img {
     width: 40%;
 }
 
+/*010*/
 .header__title {
     background: linear-gradient(132deg, rgb(249, 206, 183) 0.00%, rgb(173, 209, 242) 100.00%);
     padding: 15%;
