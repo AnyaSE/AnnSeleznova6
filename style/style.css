@@ -1,8 +1,7 @@
-* {
+body {
     margin: 0; 
     padding:0;
     font-family: 'Roboto', sans-serif;
-    color: white;
     font-size: 1rem;
 }
 
@@ -25,6 +24,7 @@
     text-decoration: none;
     padding: 10%;
     margin: 15%;
+    color: white;
 }
 
 .navigation__bar ul li a:hover {
@@ -53,3 +53,18 @@
     background: rgb(249, 206, 183);
 }
 
+.header {
+    display: flex;
+}
+
+img {
+    width: 40%;
+}
+
+.header__title {
+    background: linear-gradient(132deg, rgb(249, 206, 183) 0.00%, rgb(173, 209, 242) 100.00%);
+    padding: 15%;
+    font-weight: 500;
+    font-size: 5rem;
+    color: black;
+}
